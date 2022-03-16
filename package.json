@@ -2,5 +2,12 @@
   "name": "devops",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "devDependencies": {
+    "test": "^0.6.0"
+  }
 }
